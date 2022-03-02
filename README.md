@@ -1,8 +1,12 @@
 # SQL
 
-## Setup
-###### Day 1
+#### 1. Setup
+
+Step 1:
+
+Step 2:
+
+Step 3:
 
 
-## Retrieving Data
-###### Day 2
+#### 2. Retrieving Data
