@@ -1,8 +1,8 @@
 # SQL
 
-#### Setup
+## Setup
 ###### Day 1
 
 
-#### Retrieving Data
+## Retrieving Data
 ###### Day 2
