@@ -7,6 +7,7 @@
 Download jhgggjhghjg
 
 ###### Step 2
+Download mysql workbench
 
 ###### Step 3
 
