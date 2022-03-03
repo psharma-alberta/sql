@@ -69,9 +69,17 @@ FROM Products
 LIMIT 5;
 ```
 
-## Day 3
+## Day 3: Mar 03, 2022
 
-#### Sort single column ascending
+#### Sort single column ascending (Default sort is ASC)
+SELECT columnname
+FROM tablename
+ORDER BY columnname;
+```sql
+SELECT prod_name 
+FROM Products
+ORDER BY prod_name;
+```
 
 #### Sort single column descending
 
