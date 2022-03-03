@@ -79,3 +79,9 @@ FROM Products;
 Select columnname 
 FROM tablename
 LIMIT 5;
+
+```sql
+SELECT *
+FROM Products
+LIMIT 5;
+```
