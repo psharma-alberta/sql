@@ -2,12 +2,9 @@
 
 ## Day 1: Setup (Mar 01, 2022)
 
-
-**Book Name**: SQL in 10 minutes. 
-
-**Article Link** to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd. 
-
-**Book Link** to download content for creting SQL Databaase: https://forta.com/books/0135182794/ 
+- Book Name: SQL in 10 minutes
+- Article Link to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd
+- Book Link to download content for creting SQL Databaase: https://forta.com/books/0135182794/
 
 ###### Step 1 - Download MySQL, SQLWorkBench and data to create database
 A)	Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQL scripts from Supporting Resources (Lesson 1: Understanding SQL)
