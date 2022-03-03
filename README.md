@@ -52,7 +52,7 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 Select * 
 FROM tablename (Products);
 
-```
+```sql
 SELECT *
 FROM Products;
 ```
