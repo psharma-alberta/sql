@@ -82,5 +82,14 @@ ORDER BY prod_name;
 ```
 
 #### Sort single column descending
+SELECT columnname
+FROM tablename
+ORDER BY columnname DESC;
+```sql
+SELECT prod_name 
+FROM Products
+ORDER BY prod_name DESC;
+```
+
 
 #### Sort two columns, first ascending, second descending
