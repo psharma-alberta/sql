@@ -70,6 +70,11 @@ FROM Products;
 Select DISTINCT columnname 
 FROM tablename;
 
+```sql
+SELECT DISTINCT vend_id
+FROM Products;
+```
+
 ###### Limiting Results (will provide first 5 records of the table)
 Select columnname 
 FROM tablename
