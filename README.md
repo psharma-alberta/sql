@@ -36,7 +36,7 @@ Write SELECT * statement to see the data.
 
 ## Day 2: Retrieving Data (Mar 02, 2022)
 
-#### Retrieving All Columns
+#### Show All Columns
 
 Select * 
 FROM tablename;
@@ -47,7 +47,7 @@ FROM Products;
 ```
 
 
-#### Retrieving Individual Columns
+#### Show Individual Columns
 Select columnname/s 
 FROM tablename;
 ```sql
