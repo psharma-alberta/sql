@@ -50,7 +50,7 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 ###### Retrieving All Columns
 
 Select * 
-FROM tablename (Products);
+FROM tablename;
 
 ```sql
 SELECT *
@@ -61,6 +61,10 @@ FROM Products;
 ###### Retrieving Individual Columns
 Select columnname/s 
 FROM tablename;
+```sql
+SELECT prod_id, vend_id, prod_name
+FROM Products;
+```
 
 ###### Retrieving Distinct Rows
 Select DISTINCT columnname 
