@@ -1,8 +1,9 @@
 # SQL
 
-## DAY 1: March 01, 2022
+## 1. Setup
+*DAY 1: March 01, 2022*
 
-### 1. Setup
+
 **Book Name**: SQL in 10 minutes. 
 
 **Article Link** to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd. 
@@ -38,9 +39,9 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 
 ###### Step 3 - Write SELECT * statement to see the data.
 
-## DAY 2: March 02, 2022
 
-### 2. Retrieving Data
+## 2. Retrieving Data
+*DAY 2: March 02, 2022*
 
 ###### Retrieving All Columns
 
