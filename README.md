@@ -14,8 +14,8 @@ A)	Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQ
 
 B)	MySQL: https://dev.mysql.com/downloads/mysql/ \
 (Version: macOS 11 (x86, 64-bit), DMG Archive) \
-Once downloaded, open and follow instructions (PW: Sharm@85, might need it later to connect SQLWorkbench to MySQL) \
-(After installing, delete the installer) \
+Once downloaded, open and follow instructions \
+(After installing, delete the installer)
 
 
 3)	My SQLWorkbench: https://dev.mysql.com/downloads/workbench/
