@@ -13,24 +13,16 @@
 A)	Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQL scripts from Supporting Resources (Lesson 1: Understanding SQL)
 
 B)	MySQL: https://dev.mysql.com/downloads/mysql/
-
-    (Version: macOS 11 (x86, 64-bit), DMG Archive)
-
-    Once downloaded, open and follow instructions (PW: Sharm@85, might need it later to connect SQLWorkbench to MySQL)
-
-    (After installing, delete the installer)
+(Version: macOS 11 (x86, 64-bit), DMG Archive)
+Once downloaded, open and follow instructions (PW: Sharm@85, might need it later to connect SQLWorkbench to MySQL)
+(After installing, delete the installer)
 
 
 3)	My SQLWorkbench: https://dev.mysql.com/downloads/workbench/
-
 (Version: macOS (x86, 64-bit), DMG Archive)
-
 Once downloaded, drag and drop in Applications Folder.
-
 Open SQLWorkbench and click on the + sign
-
 Name it as localhost and click on ‘Test Connection’
-
 Press OK
 
 
