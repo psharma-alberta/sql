@@ -91,7 +91,6 @@ FROM Products
 ORDER BY prod_name DESC;
 ```
 
-
 #### Sort two columns, first ascending, second descending
 SELECT columnname1, columnname2
 FROM tablename
@@ -101,3 +100,14 @@ SELECT prod_price, prod_name
 FROM Products
 ORDER BY prod_price, prod_name DESC;
 ```
+
+
+## Day 4 · Filter (WHERE)
+
+#### Show records matching value
+
+#### Show records not matching value
+
+#### Show records matching range
+
+#### Show records matching no value
