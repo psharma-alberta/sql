@@ -7,7 +7,7 @@ Book Name: SQL in 10 minutes
 Article link to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd
 Book Link to downloaad content for creting SQL Databaase: https://forta.com/books/0135182794/ 
 
-###### Step 1 - Download MySQL, SQLWorkBench and data to create daatabase
+###### Step 1 - Download MySQL, SQLWorkBench and data to create database
 A)	Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQL scripts from Supporting Resources (Lesson 1: Understanding SQL)
 
 B)	MySQL: https://dev.mysql.com/downloads/mysql/
@@ -47,14 +47,19 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 
 ### 2. Retrieving Data
 
-
-
-
-
 ###### Retrieving All Columns
+Select * 
+FROM tablename;
 
 ###### Retrieving Individual Columns
+Select columnname/s 
+FROM tablename;
 
 ###### Retrieving Distinct Rows
+Select DISTINCT columnname 
+FROM tablename;
 
-###### Limiting Results
+###### Limiting Results (will provide first 5 records of the table)
+Select columnname 
+FROM tablename
+LIMIT 5;
