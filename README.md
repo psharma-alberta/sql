@@ -93,3 +93,11 @@ ORDER BY prod_name DESC;
 
 
 #### Sort two columns, first ascending, second descending
+SELECT columnname1, columnname2
+FROM tablename
+ORDER BY columnname1, columnname2 DESC;
+```sql
+SELECT prod_price, prod_name
+FROM Products
+ORDER BY prod_price, prod_name DESC;
+```
