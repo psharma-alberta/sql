@@ -7,7 +7,8 @@
 ## Day 1: Setup (Mar 01, 2022)
 
 
-1. Download MySQL. Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQL scripts from Supporting Resources (Lesson 1: Understanding SQL)
+1. Download MySQL
+    - Go to https://forta.com/books/0135182794/ and download MySQL (and MariaDB) SQL scripts from Supporting Resources (Lesson 1: Understanding SQL)
     - MySQL: https://dev.mysql.com/downloads/mysql/
     - Version: macOS 11 (x86, 64-bit), DMG Archive
     - Once downloaded, open and follow instructions
@@ -19,7 +20,8 @@
     - Open SQLWorkbench and click on the + sign
     - Name it as localhost and click on ‘Test Connection’
     - Press OK
-3. Create database. Follow the article, there is a video in there as well. You will create database using data provided by the book that you downloaded from the link: https://forta.com/books/0135182794/
+3. Create database 
+    - Follow the article, there is a video in there as well. You will create database using data provided by the book that you downloaded from the link: https://forta.com/books/0135182794/
     - Open SQLWokBench, Click on ‘Create New Schema’ button.  
     - Name as tysql (THIS IS THE NEW DATABASE) and Click Apply and then again click Apply.  
     - Now go to Query and open tysql by double clicking on it.  
