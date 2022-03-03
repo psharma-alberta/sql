@@ -68,3 +68,11 @@ SELECT *
 FROM Products
 LIMIT 5;
 ```
+
+## Day 3
+
+#### Sort single column ascending
+
+#### Sort single column descending
+
+#### Sort two columns, first ascending, second descending
