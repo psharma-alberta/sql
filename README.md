@@ -35,10 +35,14 @@ Press OK
 ###### Step 2 - Creating database (Follow the article, there is a video in there as well)
 (You will create database using data provided by the book that you downloaded from the link: https://forta.com/books/0135182794/ )
 
-A) Open SQLWokBench, Click on ‘Create New Schema’ button
-B) Name as tysql (THIS IS THE NEW DATABASE) and Click Apply and then again click Apply
-C) Now go to Query and open tysql by double clicking on it
-D) Copy and paste the contents of the “create” file into the SQL editor window and execute the query using the lightning bolt icon. You will see data towards the bottom of screen. Now select everything that you just pasted and delete it. Repeat the process to copy and paste the contents of “populate”  file into the SQL editor window and execute this query as well and then delete the pasted data. Now you have the data in the database called tysql
+A) Open SQLWokBench, Click on ‘Create New Schema’ button.  
+
+B) Name as tysql (THIS IS THE NEW DATABASE) and Click Apply and then again click Apply.  
+
+C) Now go to Query and open tysql by double clicking on it.  
+
+D) Copy and paste the contents of the “create” file into the SQL editor window and execute the query using the lightning bolt icon. You will see data towards the bottom of screen. Now select everything that you just pasted and delete it. Repeat the process to copy and paste the contents of “populate”  file into the SQL editor window and execute this query as well and then delete the pasted data. Now you have the data in the database called tysql.  
+
 
 
 ###### Step 3 - Write SELECT * statement to see the data.
