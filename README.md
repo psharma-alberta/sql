@@ -48,8 +48,15 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 ### 2. Retrieving Data
 
 ###### Retrieving All Columns
+
 Select * 
-FROM tablename;
+FROM tablename (Products);
+
+```
+SELECT *
+FROM Products;
+```
+
 
 ###### Retrieving Individual Columns
 Select columnname/s 
