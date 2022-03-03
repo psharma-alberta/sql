@@ -1,6 +1,6 @@
 # SQL
 
-## Day 1 · Mar 01 · Setup
+## Setup (Day 1 · Mar 01, 2022)
 
 
 **Book Name**: SQL in 10 minutes. 
@@ -39,7 +39,7 @@ D) Copy and paste the contents of the “create” file into the SQL editor wind
 ###### Step 3 - Write SELECT * statement to see the data.
 
 
-## Day 2 · Mar 02 · Retrieving Data
+## Retrieving Data (Day 2 · Mar 02, 2022)
 
 ###### Retrieving All Columns
 
