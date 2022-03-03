@@ -3,8 +3,10 @@
 ## DAY 1: March 01, 2022
 
 ### 1. Setup
-**Book Name**: SQL in 10 minutes
-**Article Link** to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd
+**Book Name**: SQL in 10 minutes. 
+
+**Article Link** to download SQL software: https://cierra-andaur.medium.com/sams-teach-yourself-sql-in-10-minutes-a-day-setting-up-for-success-76dd346e5dd. 
+
 **Book Link** to downloaad content for creting SQL Databaase: https://forta.com/books/0135182794/ 
 
 ###### Step 1 - Download MySQL, SQLWorkBench and data to create database
