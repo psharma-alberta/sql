@@ -115,8 +115,17 @@ WHERE order_item = 2;
 
 ```
 
+#### Show records not matching value (!= or <>)
+SELECT columnname or *
+FROM tablename
+WHERE columnname != 'some condition';
+```sql
+SELECT * 
+FROM OrderItems
+WHERE order_item != 2;
 
-#### Show records not matching value
+```
+
 
 #### Show records matching range
 
