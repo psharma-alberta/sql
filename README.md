@@ -126,7 +126,15 @@ WHERE order_item != 2;
 
 ```
 
-
 #### Show records matching range
+SELECT columnname or *
+FROM tablename
+WHERE columnname BETWEEN 'some condition' AND 'some condition';
+```sql
+SELECT *
+FROM OrderItems
+WHERE quantity BETWEEN 5 AND 100 ;
+
+```
 
 #### Show records matching no value
