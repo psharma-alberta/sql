@@ -102,9 +102,19 @@ ORDER BY prod_price, prod_name DESC;
 ```
 
 
-## Day 4 · Filter (WHERE)
+## Day 4: Mar. 03, 2022 USING FILTER (WHERE)
 
 #### Show records matching value
+SELECT columnname or *
+FROM tablename
+WHERE columnname = 'some condition';
+```sql
+SELECT * 
+FROM OrderItems
+WHERE order_item = 2;
+
+```
+
 
 #### Show records not matching value
 
