@@ -138,3 +138,12 @@ WHERE quantity BETWEEN 5 AND 100 ;
 ```
 
 #### Show records matching no value
+SELECT columnname or *
+FROM tablename
+WHERE columnname IS NULL;
+```sql
+SELECT * 
+FROM Customers
+WHERE cust_email IS NULL;
+
+```
