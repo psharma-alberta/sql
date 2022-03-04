@@ -178,9 +178,23 @@ FROM PRODUCTS
 WHERE prod_name LIKE '%inch%';
 ```
 
-
-
-
 #### Return Records that begins with, or ends with any (single) character where the rest of the string is given.
+SELECT columnname
+FROM tablename
+WHERE columnname LIKE '_restofthestring';
+```sql
+SELECT prod_name
+FROM PRODUCTS 
+WHERE prod_name LIKE '_ inch teddy bear';
+```
+SELECT columnname
+FROM tablename
+WHERE columnname LIKE 'restofthestring_';
+```sql
+SELECT vend_id
+FROM PRODUCTS 
+WHERE vend_id LIKE 'DLL0_';
+```
+
 
 #### Return Records that begins with, or ends with one of two given special characters, where the rest of the string is also given.
