@@ -147,3 +147,12 @@ FROM Customers
 WHERE cust_email IS NULL;
 
 ```
+
+
+## Advanced filtering using wildcards
+
+#### Return Records that begins with, ends with and contains a specific string.
+
+#### Return Records that begins with, or ends with any (single) character where the rest of the string is given.
+
+#### Return Records that begins with, or ends with one of two given special characters, where the rest of the string is also given.
