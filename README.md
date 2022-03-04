@@ -102,7 +102,7 @@ ORDER BY prod_price, prod_name DESC;
 ```
 
 
-## Day 4: Mar. 03, 2022 USING FILTER (WHERE)
+## Day 3: Mar. 03, 2022 USING FILTER (WHERE)
 
 #### Show records matching value
 SELECT columnname or *
@@ -148,10 +148,38 @@ WHERE cust_email IS NULL;
 
 ```
 
-
+## Day 4: Mar 04, 2022 
 ## Advanced filtering using wildcards
 
 #### Return Records that begins with, ends with and contains a specific string.
+SELECT columnname
+FROM tablename
+WHERE columnname LIKE 'a%';
+```sql
+SELECT prod_name
+FROM PRODUCTS 
+WHERE prod_name LIKE 'b%';
+```
+SELECT columnname
+FROM tablename
+WHERE columnname LIKE '%y';
+```sql
+SELECT prod_name
+FROM PRODUCTS 
+WHERE prod_name LIKE '%y';
+```
+
+SELECT columnname
+FROM tablename
+WHERE columnname LIKE '%inch%';
+```sql
+SELECT prod_name
+FROM PRODUCTS 
+WHERE prod_name LIKE '%inch%';
+```
+
+
+
 
 #### Return Records that begins with, or ends with any (single) character where the rest of the string is given.
 
