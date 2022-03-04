@@ -196,5 +196,23 @@ FROM PRODUCTS
 WHERE vend_id LIKE 'DLL0_';
 ```
 
-
 #### Return Records that begins with, or ends with one of two given special characters, where the rest of the string is also given.
+SELECT columname
+FROM tablename
+WHERE columnname LIKE '[ab]%';
+```sql
+SELECT cust_contact
+FROM Customers
+WHERE cust_contact LIKE '[JM]%'
+ORDER BY cust_contact;
+```
+# !!! THIS SYNTAX DOES NOT WORK WITH ALL DATABASE MANAGEMENT SYSTEMS !!!
+# !!! HERE IS AN ALTERNATE TO BE USED WITH MYSQL DBM !!!
+
+```sql
+SELECT cust_contact
+FROM Customers
+WHERE cust_contact LIKE 'J%' OR cust_contact LIKE 'M%'
+ORDER BY cust_contact;
+```
+
