@@ -215,11 +215,24 @@ FROM Customers
 WHERE cust_contact LIKE 'J%' OR cust_contact LIKE 'M%'
 ORDER BY cust_contact;
 ```
-
+## Day 5: Mar 05, 2022 
 ## Using Data Manipulation Functions
 
-#### Remove extra spaces from the left, right & both sides of a column
+#### Remove extra spaces from the left(LTRIM), right(RTRIM) & both sides(TRIM) of a column
+SELECT columname
+LTRIM(columnname) 
+FROM tablename;
 
 #### Display a new column by concatenating 2 columns, with a space between them, and an alias
+SELECT columnname1, columname2
+CONCAT(columname1, ' ', columname2) AS newcolumn
+FROM tablename;
+```sql
+SELECT cust_id, cust_name,
+CONCAT(cust_contact, '  ','(', (cust_country), ')') AS cust_detail
+FROM Customers;
+```
+#### !!! MYSQL doesn't use + sign to join two column values, it does so by using CONCAT function !!!
+
 
 #### Display a new column with the product of 2 columns, and an alias
