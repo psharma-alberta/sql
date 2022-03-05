@@ -236,3 +236,10 @@ FROM Customers;
 
 
 #### Display a new column with the product of 2 columns, and an alias
+SELECT columnname1, columname2, columname1 * columname2 AS newcolumn
+FROM tablename;
+```sql
+SELECT quantity, item_price,
+quantity * item_price AS total_price
+FROM OrderItems;
+```
