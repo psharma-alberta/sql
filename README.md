@@ -216,3 +216,10 @@ WHERE cust_contact LIKE 'J%' OR cust_contact LIKE 'M%'
 ORDER BY cust_contact;
 ```
 
+## Using Data Manipulation Functions
+
+#### Remove extra spaces from the left, right & both sides of a column
+
+#### Display a new column by concatenating 2 columns, with a space between them, and an alias
+
+#### Display a new column with the product of 2 columns, and an alias
