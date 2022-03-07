@@ -245,14 +245,39 @@ FROM OrderItems;
 ```
 
 
-
+## Day 6: Mar 06, 2022 
 ## Summarizing Data (Aggregate Functions)
 
-
 #### Show the number of rows in a table
+SELECT COUNT(*)
+FROM tablename;
+```sql
+SELECT count(*) AS totalrows
+FROM PRODUCTS;
+```
 
 #### Show the the lowest & highest value in a specified column, in the same query
+SELECT MAX(columnname1) AS maxvalue,
+MIN(columnname1) AS minvalue
+FROM tablename;
+```sql
+SELECT MAX(prod_price) AS max_price,
+MIN(prod_price) AS min_price
+FROM Products;
+```
 
 #### Show the average value of a specific column
+SELECT AVG(columnname) AS avrgvalue
+FROM tablename;
+```sql
+SELECT AVG(prod_price) AS avrgvalue
+FROM Products;
+```
 
 #### Show the sum (total) of the values in a specific column.
+SELECT SUM(columnname) AS sum_value
+FROM tablename;
+```sql
+SELECT SUM(prod_price) AS sum_value
+FROM Products;
+```
