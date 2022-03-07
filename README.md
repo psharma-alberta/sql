@@ -243,3 +243,16 @@ SELECT quantity, item_price,
 quantity * item_price AS total_price
 FROM OrderItems;
 ```
+
+
+
+## Summarizing Data (Aggregate Functions)
+
+
+#### Show the number of rows in a table
+
+#### Show the the lowest & highest value in a specified column, in the same query
+
+#### Show the average value of a specific column
+
+#### Show the sum (total) of the values in a specific column.
