@@ -281,3 +281,13 @@ FROM tablename;
 SELECT SUM(prod_price) AS sum_value
 FROM Products;
 ```
+
+#### 7. Grouping Data
+
+```SQL
+-- Show the count of rows for every distinct value of a (foreign key) column
+
+-- Show the count of rows for every distinct value of a (foreign key) column, filtered by condition
+
+-- Show the count of rows for every distinct value of a (foreign key) column, filtered by condition, and sorted
+```
