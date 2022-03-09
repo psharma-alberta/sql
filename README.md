@@ -286,8 +286,20 @@ FROM Products;
 
 ```SQL
 -- Show the count of rows for every distinct value of a (foreign key) column
+SELECT columnname, COUNT(*) AS somename
+FROM tablename
+GROUP BY columnname;
 
 -- Show the count of rows for every distinct value of a (foreign key) column, filtered by condition
+SELECT columnname, COUNT(*) AS somename
+FROM tablename
+GROUP BY columnname
+HAVING columnname = some condition;
 
 -- Show the count of rows for every distinct value of a (foreign key) column, filtered by condition, and sorted
+SELECT columnname, COUNT(*) AS somename
+FROM tablename
+GROUP BY columnname
+HAVING columnname = some condition
+ORDER BY columnname;
 ```
