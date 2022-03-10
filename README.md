@@ -326,3 +326,14 @@ GROUP BY prod_id
 HAVING SUM(quantity)>= 165
 ORDER BY SUM(quantity);
 ```
+
+
+## 8. Joining Tables 
+
+#### Given two tables (T1 & T2), show records that have matching values in both tables
+
+#### Given two tables (T1 & T2), show all records from T1, and only matching records from T2
+
+#### Given two tables (T1 & T2), show all records from T2, and only matching records from T1
+
+#### Given two tables (T1 & T2), show all matching & non-matching records
