@@ -293,7 +293,7 @@ SELECT prod_id, COUNT(*) as distinc_prodid
 FROM OrderItems
 GROUP BY prod_id;
 ```
-####Show the count of rows for every distinct value of a (foreign key) column, filtered by condition
+#### Show the count of rows for every distinct value of a (foreign key) column, filtered by condition
 SELECT columnname, COUNT(*) AS somename
 FROM tablename
 GROUP BY columnname
@@ -312,10 +312,17 @@ GROUP BY prod_id
 HAVING SUM(quantity)>= 165;
 ```
 
--- Show the count of rows for every distinct value of a (foreign key) column, filtered by condition, and sorted
+#### Show the count of rows for every distinct value of a (foreign key) column, filtered by condition, and sorted
 SELECT columnname, COUNT(*) AS somename
 FROM tablename
 GROUP BY columnname
 HAVING columnname = some condition
 ORDER BY columnname;
+
+```sql
+SELECT prod_id, SUM(quantity) AS totalquant
+FROM OrderItems
+GROUP BY prod_id
+HAVING SUM(quantity)>= 165
+ORDER BY SUM(quantity);
 ```
