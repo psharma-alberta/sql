@@ -330,10 +330,43 @@ ORDER BY SUM(quantity);
 
 ## 8. Joining Tables 
 
-#### Given two tables (T1 & T2), show records that have matching values in both tables
+#### Given two tables (T1 & T2), show records that have matching values in both tables (assumin column_id is common column between T1 & T2)
+SELECT T1.columnname, T2.columnname
+FROM T1
+INNER JOIN T2 ON T1.column_id = T2.column_id;
+```sql
+SELECT OrderItems.quantity, Products.prod_name
+FROM OrderItems
+INNER JOIN Products ON OrderItems.prod_id = Products.prod_id;
+```
 
 #### Given two tables (T1 & T2), show all records from T1, and only matching records from T2
+SELECT T1.columnname, T2.columnname
+FROM T1
+LEFT JOIN T2 ON T1.column_id = T2.column_id;
+```sql
+SELECT OrderItems.quantity, Products.prod_name
+FROM OrderItems
+LEFT JOIN Products ON OrderItems.prod_id = Products.prod_id;
+```
+
 
 #### Given two tables (T1 & T2), show all records from T2, and only matching records from T1
+SELECT T1.columnname, T2.columnname
+FROM T1
+RIGHT JOIN T2 ON T1.column_id = T2.column_id;
+```sql
+SELECT OrderItems.quantity, Products.prod_name
+FROM OrderItems
+RIGHT JOIN Products ON OrderItems.prod_id = Products.prod_id;
+```
 
 #### Given two tables (T1 & T2), show all matching & non-matching records
+SELECT T1.columnname, T2.columnname
+FROM T1
+CROSS JOIN T2;
+```sql
+SELECT OrderItems.quantity, Products.prod_name
+FROM OrderItems
+CROSS JOIN Products;
+```
