@@ -364,9 +364,9 @@ RIGHT JOIN Products ON OrderItems.prod_id = Products.prod_id;
 #### Given two tables (T1 & T2), show all matching & non-matching records
 SELECT T1.columnname, T2.columnname
 FROM T1
-CROSS JOIN T2;
+CROSS JOIN T2 ON T1.column_id = T2.column_id; 
 ```sql
 SELECT OrderItems.quantity, Products.prod_name
 FROM OrderItems
-CROSS JOIN Products;
+CROSS JOIN Products ON OrderItems.prod_id = Products.prod_id;
 ```
