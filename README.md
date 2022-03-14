@@ -372,7 +372,7 @@ CROSS JOIN Products ON OrderItems.prod_id = Products.prod_id;
 ```
 
 
-## Inserting, Updating & Deleting Records
+## 9. Inserting, Updating & Deleting Records
 
 #### Insert a new record into a table (explicitly stating the column names)
 
