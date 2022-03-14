@@ -373,6 +373,8 @@ CROSS JOIN Products ON OrderItems.prod_id = Products.prod_id;
 
 
 ## 9. Inserting, Updating & Deleting Records
+INSERT INTO tablename (columnname1, columnname2, columnname3)
+Values(1, 'abc', 2020-10-23);
 
 #### Insert a new record into a table (explicitly stating the column names)
 
