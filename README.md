@@ -370,3 +370,16 @@ SELECT OrderItems.quantity, Products.prod_name
 FROM OrderItems
 CROSS JOIN Products ON OrderItems.prod_id = Products.prod_id;
 ```
+
+
+## Inserting, Updating & Deleting Records
+
+#### Insert a new record into a table (explicitly stating the column names)
+
+#### Update all records in a table (by specifying the column names)
+
+#### Update specific records in a table (by specifying the column names) that match a condition
+
+#### Delete all records in a table
+
+#### Delete specific records in a table that match a condition
