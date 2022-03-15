@@ -414,8 +414,9 @@ WHERE cust_id = 1000000007;
 ```
 
 
+## 10. Creating, Updating and Deleting Tables
+
 ```SQL
-10. Creating, Updating and Deleting Tables
 -- Create a table with a number, string & date columns, where all columns are nullable
 
 -- Create a table with a number, string & date columns, where date is not-nullable
