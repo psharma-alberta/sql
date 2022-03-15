@@ -412,3 +412,23 @@ WHERE columnname = somevalue;
 DELETE FROM Customers
 WHERE cust_id = 1000000007;
 ```
+
+
+```SQL
+10. Creating, Updating and Deleting Tables
+-- Create a table with a number, string & date columns, where all columns are nullable
+
+-- Create a table with a number, string & date columns, where date is not-nullable
+
+-- Create a table with a number, string & date columns, where (current) date is automatically populated
+
+-- Update a table by adding a new column
+
+-- Update a table by removing an existing column
+
+-- Update a table by renaming an existing column
+
+-- Delete a table 
+
+-- Rename a table
+```
