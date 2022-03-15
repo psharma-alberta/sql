@@ -373,12 +373,17 @@ CROSS JOIN Products ON OrderItems.prod_id = Products.prod_id;
 
 
 ## 9. Inserting, Updating & Deleting Records
-INSERT INTO tablename (columnname1, columnname2, columnname3)
-Values(1, 'abc', 2020-10-23);
 
 #### Insert a new record into a table (explicitly stating the column names)
+INSERT INTO tablename (columnname1, columnname2, columnname3)
+Values(1, 'abc', 2020-10-23);
+```sql
+INSERT INTO Customers(cust_id, cust_name, cust_address, cust_city)
+VALUES(1000000007, 'Frozen', '4546 52nd Street','AT');
+```
 
 #### Update all records in a table (by specifying the column names)
+
 
 #### Update specific records in a table (by specifying the column names) that match a condition
 
