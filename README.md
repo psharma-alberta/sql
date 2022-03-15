@@ -383,10 +383,32 @@ VALUES(1000000007, 'Frozen', '4546 52nd Street','AT');
 ```
 
 #### Update all records in a table (by specifying the column names)
+UPDATE tablename
+SET columnname1 = some_value,
+    columnname2 = someother_value;
 
 
 #### Update specific records in a table (by specifying the column names) that match a condition
+UPDATE tablename
+SET columnname = somevalue
+WHERE column_id = 1;
+```sql
+UPDATE Customers
+SET cust_name ='Frozen2'
+WHERE cust_id = 1000000007;
+```
 
 #### Delete all records in a table
+DELETE FROM tablename;
+```sql
+DELETE FROM Customers;
+```
+
 
 #### Delete specific records in a table that match a condition
+DELETE FROM tablename
+WHERE columnname = somevalue;
+```sql
+DELETE FROM Customers
+WHERE cust_id = 1000000007;
+```
