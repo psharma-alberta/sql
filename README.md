@@ -416,20 +416,75 @@ WHERE cust_id = 1000000007;
 
 ## 10. Creating, Updating and Deleting Tables
 
-```SQL
--- Create a table with a number, string & date columns, where all columns are nullable
+#### Create a table with a number, string & date columns, where all columns are nullable
+CREATE TABLE tablename 
+(columnname1 datatype NULL,
+ columnname2 datatype NULL,
+ columnname3 datatype NULL);
+ ```sql
+ CREATE TABLE Items
+ (item_name  TEXT  NULL,
+ item_quantity  INTEGER NULL,
+ item_desc char(50) NULL);
+ ```
 
--- Create a table with a number, string & date columns, where date is not-nullable
+#### Create a table with a number, string & date columns, where date is not-nullable
+CREATE TABLE tablename 
+(columnname1 INTEGER NULL,
+ columnname2 TEXT NULL,
+ columnname3 DATETIME NOT NULL);
+ ```sql
+ CREATE TABLE things 
+(thing_id INTEGER NULL,
+ thing_name TEXT NULL,
+ thing_order_date DATETIME NOT NULL);
+ ```
 
--- Create a table with a number, string & date columns, where (current) date is automatically populated
+#### Create a table with a number, string & date columns, where (current) date is automatically populated
+CREATE TABLE tablename 
+(columnname1 INTEGER,
+ columnname2 TEXT,
+ columnname3 DATETIME DEFAULT NOW());
+ ```sql
+ CREATE TABLE manythings5
+(mthing_id INTEGER,
+ mthing_name TEXT,
+ mthing_order_date DATETIME DEFAULT NOW());
+ ```
 
--- Update a table by adding a new column
+#### Update a table by adding a new column
+ALTER TABLE tablename
+ADD columnname CHAR(10);
+```sql
+ALTER TABLE manythings5
+ADD mthing5_descr CHAR (50);
+```
+#### Update a table by removing an existing column
+ALTER TABLE tablename
+DROP COLUMN columnname;
+```sql
+ALTER TABLE manythings5
+DROP COLUMN mthing5_descr;
+```
 
--- Update a table by removing an existing column
+#### Update a table by renaming an existing column
+ALTER TABLE tablename
+RENAME COLUMN columnname TO newcolumnname;
+```sql
+ALTER TABLE newthings
+RENAME COLUMN mthing_name TO newthing_name;
+```
 
--- Update a table by renaming an existing column
+#### Delete a table 
+DROP TABLE tablename;
+```sql
+DROP TABLE manythings2;
+```
 
--- Delete a table 
-
--- Rename a table
+#### Rename a table
+ALTER TABLE tablename
+RENAME TO newtablename;
+```sql
+ALTER TABLE manythings
+RENAME TO newthings;
 ```
